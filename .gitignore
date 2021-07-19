@@ -1,0 +1,6 @@
+.vscode/
+node_modules/
+__pycache__/
+**/proto/*_pb.js
+**/proto/*_pb2*.py
+*.pyc

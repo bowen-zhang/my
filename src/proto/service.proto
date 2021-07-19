@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+package my;
+
+message TestRequest {
+  int32 count = 1;
+}
+
+message TestData {
+  int32 x = 1;
+  int32 y = 2;
+}
+
+message TestReply {
+  repeated TestData data = 1;
+}
+
+service MyService {
+  rpc Test (TestRequest) returns (TestReply);
+}

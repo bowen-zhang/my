@@ -1,0 +1,16 @@
+arrow
+absl-py
+cryptography
+cssselect
+exif
+flask
+firebase-admin
+google-cloud-firestore==1.7.0
+inflection
+lxml
+plaid-python==4.0.0
+pymongo
+protobuf==3.12.1
+grpcio==1.29.0
+grpcio-tools==1.29.0
+pyyaml

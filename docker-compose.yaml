@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  web-server:
+    build:
+      context: ./
+      dockerfile: ./frontend.dockerfile
+    network_mode: host
+    backend:
+    build:
+      context: ./
+      dockerfile: ./backend.dockerfile
+    network_mode: host
